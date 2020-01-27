@@ -1,0 +1,76 @@
+import { GlideElement, GlideRecord } from '@nuvolo/servicenow-types';
+
+import { ReferenceGlideElement } from '@nuvolo/servicenow-types/util';
+
+export interface sys_user {
+  active: GlideElement;
+  avatar: GlideElement;
+  calendar_integration: GlideElement;
+  city: GlideElement;
+  company: GlideElement;
+  correlation_id: GlideElement;
+  cost_center: GlideElement;
+  country: GlideElement;
+  date_format: GlideElement;
+  default_perspective: GlideElement;
+  department: GlideElement;
+  edu_status: GlideElement;
+  email: GlideElement;
+  employee_number: GlideElement;
+  enable_multifactor_authn: GlideElement;
+  failed_attempts: GlideElement;
+  first_name: GlideElement;
+  gender: GlideElement;
+  home_phone: GlideElement;
+  hr_integration_source: GlideElement;
+  internal_integration_user: GlideElement;
+  introduction: GlideElement;
+  last_login: GlideElement;
+  last_login_device: GlideElement;
+  last_login_time: GlideElement;
+  last_name: GlideElement;
+  last_password: GlideElement;
+  ldap_server: GlideElement;
+  location: GlideElement;
+  locked_out: GlideElement;
+  manager: GlideElement;
+  middle_name: GlideElement;
+  mobile_phone: GlideElement;
+  name: GlideElement;
+  notification: GlideElement;
+  password_needs_reset: GlideElement;
+  phone: GlideElement;
+  photo: GlideElement;
+  preferred_language: GlideElement;
+  roles: GlideElement;
+  schedule: GlideElement;
+  source: GlideElement;
+  sso_source: GlideElement;
+  state: GlideElement;
+  street: GlideElement;
+  sys_class_name: GlideElement;
+  sys_created_by: GlideElement;
+  sys_created_on: GlideElement;
+  sys_domain: GlideElement;
+  sys_domain_path: GlideElement;
+  sys_id: GlideElement;
+  sys_mod_count: GlideElement;
+  sys_updated_by: GlideElement;
+  sys_updated_on: GlideElement;
+  time_format: GlideElement;
+  time_zone: GlideElement;
+  title: GlideElement;
+  transaction_log: GlideElement;
+  user_name: GlideElement;
+  vip: GlideElement;
+  web_service_access_only: GlideElement;
+  x_nuvo_eam_out_of_office: GlideElement;
+  x_nuvo_eam_user: GlideElement;
+  x_nuvo_eam_primary_location: ReferenceGlideElement<{
+    site: ReferenceGlideElement<{
+      latitude: GlideElement;
+      longitude: GlideElement;
+    }>;
+  }>;
+  zip: GlideElement;
+}

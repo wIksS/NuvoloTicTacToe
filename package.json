@@ -1,0 +1,44 @@
+{
+  "name": "sinc-csd",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".prettierrc.js",
+  "dependencies": {
+    "dayjs": "^1.8.17",
+    "immer": "^5.0.0",
+    "sinc-eam": "github:nuvolo/sinc-eam#hungary",
+    "use-immer": "^0.3.5"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "@nuvolo/dev-env": "0.1.6",
+    "@nuvolo/nuux": "github:nuvolo/nuux#semver:0.2.5",
+    "@nuvolo/servicenow-types": "0.0.5",
+    "@sincronia/babel-plugin": "^0.3.1",
+    "@sincronia/core": "^0.3.0",
+    "@sincronia/typescript-plugin": "^0.3.1",
+    "@types/dhtmlxscheduler": "^4.3.37",
+    "@types/jest": "^24.0.23",
+    "@types/leaflet": "^1.5.5",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "leaflet": "^1.6.0",
+    "react-test-renderer": "^16.12.0"
+  },
+  "scripts": {
+    "test": "BABEL_ENV=test npx jest",
+    "test-watch": "BABEL_ENV=test npx jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuvolo/sinc-csd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nuvolo/sinc-csd/issues"
+  },
+  "homepage": "https://github.com/nuvolo/sinc-csd#readme"
+}
